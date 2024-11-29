@@ -1,4 +1,11 @@
 # ETL Mini Project: Crowdfunding Data Analysis
+
+## Authors: Ruprekha Baruah, Vidushi Bundhooa, Rushad Confectioner
+## Setup:
+To download the required libraries, run the following in your console:
+* pip install -r installed_packages.txt
+
+## Introduction
 This ETL mini project demonstrates the implementation of an ETL pipeline using Python, Pandas, and regular expressions to extract, transform, and load crowdfunding data. The pipeline extracts data from Excel files, transforms it into well-structured DataFrames, and saves them as CSV files. These CSV files were then used to create an Entity-Relationship Diagram (ERD), a database schema, and populate a PostgreSQL database.
 
 ## Files and Folders
