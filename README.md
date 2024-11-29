@@ -9,6 +9,7 @@ To download the required libraries, run the following in your console:
 This ETL mini project demonstrates the implementation of an ETL pipeline using Python, Pandas, and regular expressions to extract, transform, and load crowdfunding data. The pipeline extracts data from Excel files, transforms it into well-structured DataFrames, and saves them as CSV files. These CSV files were then used to create an Entity-Relationship Diagram (ERD), a database schema, and populate a PostgreSQL database.
 
 ## Files and Folders
+ 
 ### 1. Resources Folder
 This folder contains all input and output files used in the project:
 * **CSV Files**: Generated from the DataFrames, used for creating the database schema.
@@ -19,8 +20,7 @@ This folder contains all input and output files used in the project:
 * **Excel Files**: Raw data files imported for transformation.
    * contacts.xlsx
    * crowdfunding.xlsx
-* **Text Files**: 
-   * installed_packages.txt: Contains a list of all Python packages installed in the environment to ensure reproducibility.   
+
 
 ### 2. Scripts
 * **ETL_Mini_Project_RBaruah_VBundhooa_Rconfectioner.py**: Contains the Python script to extract, transform, and export data as CSV files.
@@ -28,6 +28,8 @@ This folder contains all input and output files used in the project:
 ### 3. Database schema and ERD
    * **crowdfunding_db_schema.sql**: PostgreSQL database schema defining the table structure.
    * **database_ERD.png**: Entity-Relationship Diagram of the database.
+### 4. Text Files 
+   * installed_packages.txt: Contains a list of all Python packages installed in the environment to ensure reproducibility.      
 
 ## Workflow
 This project is divided into four main parts:
