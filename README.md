@@ -19,6 +19,8 @@ This folder contains all input and output files used in the project:
 * **Excel Files**: Raw data files imported for transformation.
    * contacts.xlsx
    * crowdfunding.xlsx
+* **Text Files**: 
+   * installed_packages.txt: Contains a list of all Python packages installed in the environment to ensure reproducibility.   
 
 ### 2. Scripts
 * **ETL_Mini_Project_RBaruah_VBundhooa_Rconfectioner.py**: Contains the Python script to extract, transform, and export data as CSV files.
